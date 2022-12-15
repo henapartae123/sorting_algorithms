@@ -41,4 +41,8 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void counting_sort_r(int *array, size_t size, int pos, int *out, int *ca);
 
+void swapint(int *l, int *r);
+void bitonic_sort(int *array, size_t size);
+void b_sort(int *array, int low, int count, int dir, size_t size);
+void b_merge(int *array, int low, int count, int dir, size_t size);
 #endif
